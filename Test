@@ -1,0 +1,11 @@
+<html>
+  <body>
+
+  <script src="/scripts/xoces-umd.js"></script>
+  <script>
+    console.log('xoces is loaded!', xoces);
+    var config = {...};
+    var myWidget = xoces.widgets.XocesWidget.new(config);
+  </script>
+  </body>
+</html>
